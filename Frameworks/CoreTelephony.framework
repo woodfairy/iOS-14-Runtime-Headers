@@ -1,0 +1,184 @@
+<HTML>
+<HEAD>
+<TITLE>CoreTelephony.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/Frameworks/CoreTelephony.framework
+126 classes
+
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTActivationPolicyState.h">CTActivationPolicyState.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTAppDataUsage.h">CTAppDataUsage.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTAsciiAddress.h">CTAsciiAddress.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTAudioCodecInfo.h">CTAudioCodecInfo.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTBandInfo.h">CTBandInfo.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTBinarySMS.h">CTBinarySMS.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTBundle.h">CTBundle.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTCall.h">CTCall.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTCallCapabilities.h">CTCallCapabilities.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTCallCenter.h">CTCallCenter.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTCallForwardingValue.h">CTCallForwardingValue.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTCarrier.h">CTCarrier.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTCellIdInfo.h">CTCellIdInfo.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTCellInfo.h">CTCellInfo.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTCellularData.h">CTCellularData.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTCellularPlanManagerCameraScanAction.h">CTCellularPlanManagerCameraScanAction.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTCellularPlanProvisioning.h">CTCellularPlanProvisioning.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTCellularPlanProvisioningOnDeviceActivationRequest.h">CTCellularPlanProvisioningOnDeviceActivationRequest.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTCellularPlanProvisioningRequest.h">CTCellularPlanProvisioningRequest.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTDataConnectionAvailabilityStatus.h">CTDataConnectionAvailabilityStatus.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTDataConnectionStatus.h">CTDataConnectionStatus.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTDataSettings.h">CTDataSettings.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTDataStatus.h">CTDataStatus.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTDataUsage.h">CTDataUsage.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTDataUsed.h">CTDataUsed.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTDeviceDataUsage.h">CTDeviceDataUsage.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTDeviceIdentifier.h">CTDeviceIdentifier.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTDisplayPlan.h">CTDisplayPlan.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTDisplayPlanList.h">CTDisplayPlanList.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTEmailAddress.h">CTEmailAddress.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTEmergencyMode.h">CTEmergencyMode.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTEmergencyModeResult.h">CTEmergencyModeResult.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTEncryptionStatusInfo.h">CTEncryptionStatusInfo.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTEnhancedDataLinkQualityMetric.h">CTEnhancedDataLinkQualityMetric.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTEnhancedLinkQualityMetric.h">CTEnhancedLinkQualityMetric.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTIMSRegistrationStatus.h">CTIMSRegistrationStatus.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTIMSRegistrationTransportInfo.h">CTIMSRegistrationTransportInfo.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTInstalledPlan.h">CTInstalledPlan.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTLocalDevice.h">CTLocalDevice.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTMessage.h">CTMessage.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTMessageCenter.h">CTMessageCenter.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTMessagePart.h">CTMessagePart.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTMessageStatus.h">CTMessageStatus.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTMmsEncoder.h">CTMmsEncoder.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTMmsRegistrationFailureInfoType.h">CTMmsRegistrationFailureInfoType.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTMobileEquipmentInfo.h">CTMobileEquipmentInfo.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTMobileEquipmentInfoList.h">CTMobileEquipmentInfoList.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTNRStatus.h">CTNRStatus.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTNetwork.h">CTNetwork.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTNetworkList.h">CTNetworkList.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTNetworkSelectionInfo.h">CTNetworkSelectionInfo.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTPNRContextInfo.h">CTPNRContextInfo.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTPNRDataType.h">CTPNRDataType.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTPNRRequestSentInfo.h">CTPNRRequestSentInfo.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTPNRRequestType.h">CTPNRRequestType.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTPendingPlan.h">CTPendingPlan.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTPerAppDataUsage.h">CTPerAppDataUsage.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTPhoneBookEntry.h">CTPhoneBookEntry.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTPhoneNumber.h">CTPhoneNumber.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTPhoneNumberInfo.h">CTPhoneNumberInfo.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTPlan.h">CTPlan.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTPlanIdentifier.h">CTPlanIdentifier.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTPlanList.h">CTPlanList.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTPlanTransferAttributes.h">CTPlanTransferAttributes.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTPriVersion.h">CTPriVersion.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTRadioAccessTechnology.h">CTRadioAccessTechnology.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTRadioFrequencyFrontEndScanData.h">CTRadioFrequencyFrontEndScanData.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTRatSelection.h">CTRatSelection.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTRegistrationDisplayStatus.h">CTRegistrationDisplayStatus.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTRemoteBlacklistPlan.h">CTRemoteBlacklistPlan.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTRemoteDevice.h">CTRemoteDevice.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTRemoteDeviceList.h">CTRemoteDeviceList.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTRemotePlan.h">CTRemotePlan.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTRemotePlanIdentifier.h">CTRemotePlanIdentifier.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTRemotePlanIdentifierList.h">CTRemotePlanIdentifierList.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTSIMToolkitItem.h">CTSIMToolkitItem.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTSIMToolkitItemList.h">CTSIMToolkitItemList.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTSIMToolkitMenu.h">CTSIMToolkitMenu.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTSMSDataType.h">CTSMSDataType.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTServiceDescriptor.h">CTServiceDescriptor.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTServiceDescriptorContainer.h">CTServiceDescriptorContainer.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTServiceDisconnectionStatus.h">CTServiceDisconnectionStatus.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTSignalStrengthInfo.h">CTSignalStrengthInfo.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTSignalStrengthMeasurements.h">CTSignalStrengthMeasurements.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTSimLabel.h">CTSimLabel.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTSubscriber.h">CTSubscriber.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTSubscriberAlgorithm.h">CTSubscriberAlgorithm.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTSubscriberAlgorithmEAPAKA.h">CTSubscriberAlgorithmEAPAKA.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTSubscriberAlgorithmEAPSIM.h">CTSubscriberAlgorithmEAPSIM.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTSubscriberAuthDataHolder.h">CTSubscriberAuthDataHolder.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTSubscriberAuthRequest.h">CTSubscriberAuthRequest.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTSubscriberAuthResult.h">CTSubscriberAuthResult.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTSubscriberInfo.h">CTSubscriberInfo.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTSuppServicesNotificationData.h">CTSuppServicesNotificationData.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTSupportedMaxDataRates.h">CTSupportedMaxDataRates.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTSweetgumAppsInfo.h">CTSweetgumAppsInfo.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTSweetgumCapabilities.h">CTSweetgumCapabilities.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTSweetgumDataPlanMetrics.h">CTSweetgumDataPlanMetrics.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTSweetgumDataPlanMetricsError.h">CTSweetgumDataPlanMetricsError.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTSweetgumDataPlanMetricsItem.h">CTSweetgumDataPlanMetricsItem.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTSweetgumPlan.h">CTSweetgumPlan.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTSweetgumPlanGroup.h">CTSweetgumPlanGroup.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTSweetgumPlansInfo.h">CTSweetgumPlansInfo.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTSweetgumUsageAccountMetrics.h">CTSweetgumUsageAccountMetrics.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTSweetgumUsageInfo.h">CTSweetgumUsageInfo.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTSweetgumUsagePlanItemData.h">CTSweetgumUsagePlanItemData.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTSweetgumUsagePlanItemMessages.h">CTSweetgumUsagePlanItemMessages.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTSweetgumUsagePlanItemVoice.h">CTSweetgumUsagePlanItemVoice.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTSweetgumUsagePlanMetrics.h">CTSweetgumUsagePlanMetrics.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTSweetgumUserConsentFlowInfo.h">CTSweetgumUserConsentFlowInfo.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTTelephonyNetworkInfo.h">CTTelephonyNetworkInfo.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTTetheringStatus.h">CTTetheringStatus.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTVoiceLinkQualityMetric.h">CTVoiceLinkQualityMetric.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTVoicemailInfoType.h">CTVoicemailInfoType.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTXPCContextInfo.h">CTXPCContextInfo.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTXPCContexts.h">CTXPCContexts.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTXPCError.h">CTXPCError.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTXPCServiceSubscriptionContext.h">CTXPCServiceSubscriptionContext.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTXPCServiceSubscriptionInfo.h">CTXPCServiceSubscriptionInfo.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTXPCSimLessContextInfo.h">CTXPCSimLessContextInfo.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CTXPCSimLessContexts.h">CTXPCSimLessContexts.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CoreTelephonyClient.h">CoreTelephonyClient.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CoreTelephonyClientDelegateProxy.h">CoreTelephonyClientDelegateProxy.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CoreTelephonyClientMux.h">CoreTelephonyClientMux.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/CoreTelephonyClientRemoteAsyncProxy.h">CoreTelephonyClientRemoteAsyncProxy.h</A>
+<A HREF="/tree/Frameworks/CoreTelephony.framework/MuxNotificationSink.h">MuxNotificationSink.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

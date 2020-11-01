@@ -1,0 +1,192 @@
+<HTML>
+<HEAD>
+<TITLE>GameController.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/Frameworks/GameController.framework
+134 classes
+
+<A HREF="/tree/Frameworks/GameController.framework/FixedParameter.h">FixedParameter.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCAnalytics.h">GCAnalytics.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCBatteryXPCProxyClientEndpoint.h">GCBatteryXPCProxyClientEndpoint.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCBatteryXPCProxyClientEndpointDescription.h">GCBatteryXPCProxyClientEndpointDescription.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCBatteryXPCProxyServerEndpoint.h">GCBatteryXPCProxyServerEndpoint.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCColor.h">GCColor.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCController.h">GCController.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCControllerAxisInput.h">GCControllerAxisInput.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCControllerButtonInput.h">GCControllerButtonInput.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCControllerCBDelegate.h">GCControllerCBDelegate.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCControllerDirectionPad.h">GCControllerDirectionPad.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCControllerElement.h">GCControllerElement.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCControllerElementSettings.h">GCControllerElementSettings.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCControllerMBDelegate.h">GCControllerMBDelegate.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCControllerMetaDefaultsObserver.h">GCControllerMetaDefaultsObserver.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCControllerSFDelegate.h">GCControllerSFDelegate.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCControllerSettings.h">GCControllerSettings.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCControllerTouchpad.h">GCControllerTouchpad.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCDeviceBattery.h">GCDeviceBattery.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCDeviceConfigurationEvaluator.h">GCDeviceConfigurationEvaluator.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCDeviceCursor.h">GCDeviceCursor.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCDeviceHaptics.h">GCDeviceHaptics.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCDeviceLight.h">GCDeviceLight.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCDualShockGamepad.h">GCDualShockGamepad.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCEventViewController.h">GCEventViewController.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCExtendedGamepad.h">GCExtendedGamepad.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCExtendedGamepadSnapshot.h">GCExtendedGamepadSnapshot.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCFrontmostApplicationObserver.h">GCFrontmostApplicationObserver.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCGamepad.h">GCGamepad.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCGamepadSnapshot.h">GCGamepadSnapshot.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCGamepadUserDefaults.h">GCGamepadUserDefaults.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCHapticActuator.h">GCHapticActuator.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCHapticCapabilities.h">GCHapticCapabilities.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCHapticCapabilityGraph.h">GCHapticCapabilityGraph.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCHapticCapabilityGraphNode.h">GCHapticCapabilityGraphNode.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCHapticMotor.h">GCHapticMotor.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCKeyboard.h">GCKeyboard.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCKeyboardAndMouseEventObserver.h">GCKeyboardAndMouseEventObserver.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCKeyboardAndMouseManager.h">GCKeyboardAndMouseManager.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCKeyboardEventData.h">GCKeyboardEventData.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCKeyboardEventObserver.h">GCKeyboardEventObserver.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCKeyboardInput.h">GCKeyboardInput.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCLightXPCProxyClientEndpoint.h">GCLightXPCProxyClientEndpoint.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCLightXPCProxyClientEndpointDescription.h">GCLightXPCProxyClientEndpointDescription.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCLightXPCProxyServerEndpoint.h">GCLightXPCProxyServerEndpoint.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCLightbarColor.h">GCLightbarColor.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCLocalPlayerIndicator.h">GCLocalPlayerIndicator.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCMicroGamepad.h">GCMicroGamepad.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCMicroGamepadSnapshot.h">GCMicroGamepadSnapshot.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCMotion.h">GCMotion.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCMotionXPCProxyClientEndpoint.h">GCMotionXPCProxyClientEndpoint.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCMotionXPCProxyClientEndpointDescription.h">GCMotionXPCProxyClientEndpointDescription.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCMotionXPCProxyServerEndpoint.h">GCMotionXPCProxyServerEndpoint.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCMouse.h">GCMouse.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCMouseEventData.h">GCMouseEventData.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCMouseEventObserver.h">GCMouseEventObserver.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCMouseInput.h">GCMouseInput.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCNotificationManager.h">GCNotificationManager.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCNotificationOptions.h">GCNotificationOptions.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCPhysicalInputProfile.h">GCPhysicalInputProfile.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCPlayerIndicatorXPCProxyClientEndpoint.h">GCPlayerIndicatorXPCProxyClientEndpoint.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCPlayerIndicatorXPCProxyClientEndpointDescription.h">GCPlayerIndicatorXPCProxyClientEndpointDescription.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCPlayerIndicatorXPCProxyServerEndpoint.h">GCPlayerIndicatorXPCProxyServerEndpoint.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCProductInformation.h">GCProductInformation.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCReplayNotificationOptions.h">GCReplayNotificationOptions.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCSettingsXPCProxyClientEndpoint.h">GCSettingsXPCProxyClientEndpoint.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCSettingsXPCProxyClientEndpointDescription.h">GCSettingsXPCProxyClientEndpointDescription.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCSettingsXPCProxyServerEndpoint.h">GCSettingsXPCProxyServerEndpoint.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/GCXboxGamepad.h">GCXboxGamepad.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCAppClientConnection.h">_GCAppClientConnection.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCAppClientProxy.h">_GCAppClientProxy.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCAppServerConnection.h">_GCAppServerConnection.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCAppleTVRemoteControllerProfile.h">_GCAppleTVRemoteControllerProfile.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCAppleTVRemoteMotionProfile.h">_GCAppleTVRemoteMotionProfile.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCAssertingProfile.h">_GCAssertingProfile.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCCControllerHIDServiceInfo.h">_GCCControllerHIDServiceInfo.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCCControllerHIDServiceInfoDescription.h">_GCCControllerHIDServiceInfoDescription.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCCControllerManagerDescription.h">_GCCControllerManagerDescription.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCController.h">_GCController.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCControllerAxisButtonInput.h">_GCControllerAxisButtonInput.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCControllerComponentDescription.h">_GCControllerComponentDescription.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCControllerDescription.h">_GCControllerDescription.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCControllerGestureAwareButtonInput.h">_GCControllerGestureAwareButtonInput.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCControllerManager.h">_GCControllerManager.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCControllerManagerAppClient.h">_GCControllerManagerAppClient.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCControllerManagerServer.h">_GCControllerManagerServer.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCDefaultDeviceManager.h">_GCDefaultDeviceManager.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCDefaultLogicalDevice.h">_GCDefaultLogicalDevice.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCDefaultPhysicalDevice.h">_GCDefaultPhysicalDevice.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCDeviceConfiguration.h">_GCDeviceConfiguration.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCDevicePIDVIDMatchingFilter.h">_GCDevicePIDVIDMatchingFilter.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCDevicePrimaryUsageMatchingFilter.h">_GCDevicePrimaryUsageMatchingFilter.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCDriverClientConnection.h">_GCDriverClientConnection.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCExtendedMFiControllerProfile.h">_GCExtendedMFiControllerProfile.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCGamepadEventFusion.h">_GCGamepadEventFusion.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCGamepadEventFusionConfig.h">_GCGamepadEventFusionConfig.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCGamepadEventFusionDescription.h">_GCGamepadEventFusionDescription.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCGamepadEventGamepadHIDAdapter.h">_GCGamepadEventGamepadHIDAdapter.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCGamepadEventGamepadHIDAdapterDescription.h">_GCGamepadEventGamepadHIDAdapterDescription.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCGamepadEventHID.h">_GCGamepadEventHID.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCGamepadEventImpl.h">_GCGamepadEventImpl.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCGamepadEventKeyboardEventAdapter.h">_GCGamepadEventKeyboardEventAdapter.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCGamepadEventKeyboardEventAdapterConfig.h">_GCGamepadEventKeyboardEventAdapterConfig.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCGamepadEventKeyboardEventAdapterDescription.h">_GCGamepadEventKeyboardEventAdapterDescription.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCHIDEventIOKitClient.h">_GCHIDEventIOKitClient.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCHIDEventSubject.h">_GCHIDEventSubject.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCHIDEventUIKitClient.h">_GCHIDEventUIKitClient.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCHapticClientConnection.h">_GCHapticClientConnection.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCHapticClientProxy.h">_GCHapticClientProxy.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCHapticDynamicParameter.h">_GCHapticDynamicParameter.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCHapticEvent.h">_GCHapticEvent.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCHapticLogicalDevice.h">_GCHapticLogicalDevice.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCHapticParameterCurve.h">_GCHapticParameterCurve.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCHapticPlayer.h">_GCHapticPlayer.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCHapticServerManager.h">_GCHapticServerManager.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCHapticSyntheticCommand.h">_GCHapticSyntheticCommand.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCHapticTokenAndParams.h">_GCHapticTokenAndParams.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCIPCRemoteConnection.h">_GCIPCRemoteConnection.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCIPCRemoteIncomingConnection.h">_GCIPCRemoteIncomingConnection.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCIPCRemoteOutgoingConnection.h">_GCIPCRemoteOutgoingConnection.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCIPCRemoteProcess.h">_GCIPCRemoteProcess.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCImplicitIPCObjectDescription.h">_GCImplicitIPCObjectDescription.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCKeyboardEventHIDAdapter.h">_GCKeyboardEventHIDAdapter.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCKeyboardEventHIDAdapterDescription.h">_GCKeyboardEventHIDAdapterDescription.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCKeyboardEventImpl.h">_GCKeyboardEventImpl.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCMFiGamepadControllerProfile.h">_GCMFiGamepadControllerProfile.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCMicrosoftXboxControllerProfile.h">_GCMicrosoftXboxControllerProfile.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCMotionEventHIDAdapter.h">_GCMotionEventHIDAdapter.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCMotionEventHIDAdapterDescription.h">_GCMotionEventHIDAdapterDescription.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCMotionEventImpl.h">_GCMotionEventImpl.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCMutableDeviceConfiguration.h">_GCMutableDeviceConfiguration.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCObservation.h">_GCObservation.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCSetValueEvent.h">_GCSetValueEvent.h</A>
+<A HREF="/tree/Frameworks/GameController.framework/_GCSonyDualShockControllerProfile.h">_GCSonyDualShockControllerProfile.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>
