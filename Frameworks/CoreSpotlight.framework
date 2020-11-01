@@ -1,0 +1,128 @@
+<HTML>
+<HEAD>
+<TITLE>CoreSpotlight.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/Frameworks/CoreSpotlight.framework
+70 classes
+
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/CSAttributeEvaluator.h">CSAttributeEvaluator.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/CSCoder.h">CSCoder.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/CSContactsWrapper.h">CSContactsWrapper.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/CSCustomAttributeKey.h">CSCustomAttributeKey.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/CSDataWrapper.h">CSDataWrapper.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/CSDecoder.h">CSDecoder.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/CSExtensionJobThrottle.h">CSExtensionJobThrottle.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/CSExtension_PKSubsystem.h">CSExtension_PKSubsystem.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/CSFPItem.h">CSFPItem.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/CSImportExtension.h">CSImportExtension.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/CSIndexConnection.h">CSIndexConnection.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/CSIndexDelegateConnection.h">CSIndexDelegateConnection.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/CSIndexExtensionRequestHandler.h">CSIndexExtensionRequestHandler.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/CSIndexJob.h">CSIndexJob.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/CSIndexingQueue.h">CSIndexingQueue.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/CSIntentsWrapper.h">CSIntentsWrapper.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/CSLifeFSConnection.h">CSLifeFSConnection.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/CSLiveFSVolume.h">CSLiveFSVolume.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/CSLocalizedString.h">CSLocalizedString.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/CSPerson.h">CSPerson.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/CSPowerLog.h">CSPowerLog.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/CSPrivateIndexConnection.h">CSPrivateIndexConnection.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/CSPrivateSearchConnection.h">CSPrivateSearchConnection.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/CSPrivateSearchQuery.h">CSPrivateSearchQuery.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/CSPrivateSearchableIndex.h">CSPrivateSearchableIndex.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/CSReceiverPreferences.h">CSReceiverPreferences.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/CSReceiverServerPreferences.h">CSReceiverServerPreferences.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/CSSearchConnection.h">CSSearchConnection.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/CSSearchContext.h">CSSearchContext.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/CSSearchQuery.h">CSSearchQuery.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/CSSearchQueryContext.h">CSSearchQueryContext.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/CSSearchableIndex.h">CSSearchableIndex.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/CSSearchableIndexRequest.h">CSSearchableIndexRequest.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/CSSearchableItem.h">CSSearchableItem.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/CSSearchableItemAttributeSet.h">CSSearchableItemAttributeSet.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/CSSearchableItemCodedArray.h">CSSearchableItemCodedArray.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/CSSubscriptionManager.h">CSSubscriptionManager.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/CSTopHitSearchQuery.h">CSTopHitSearchQuery.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/CSUserAction.h">CSUserAction.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/CSUserActivityTuple.h">CSUserActivityTuple.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/CSUserQuery.h">CSUserQuery.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/CSUserQueryParser.h">CSUserQueryParser.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/CSXPCConnection.h">CSXPCConnection.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/CoreSpotlightPreferences.h">CoreSpotlightPreferences.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/CoreSpotlightUtils.h">CoreSpotlightUtils.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/MDCustomAttributeKey.h">MDCustomAttributeKey.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/MDIndexExtensionRequestHandler.h">MDIndexExtensionRequestHandler.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/MDLocalizedString.h">MDLocalizedString.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/MDPerson.h">MDPerson.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/MDSearchQuery.h">MDSearchQuery.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/MDSearchableIndex.h">MDSearchableIndex.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/MDSearchableItem.h">MDSearchableItem.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/MDSearchableItemAttributeSet.h">MDSearchableItemAttributeSet.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/MDUserAction.h">MDUserAction.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/TokenEnumeratorContext.h">TokenEnumeratorContext.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/_MDDateFormatterFactory.h">_MDDateFormatterFactory.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/_MDExtensionContext.h">_MDExtensionContext.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/_MDExtensionLoader.h">_MDExtensionLoader.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/_MDExtensionManager.h">_MDExtensionManager.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/_MDHTMLParsing.h">_MDHTMLParsing.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/_MDHostExtensionContext.h">_MDHostExtensionContext.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/_MDImportExtensionLoader.h">_MDImportExtensionLoader.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/_MDImportExtensionManager.h">_MDImportExtensionManager.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/_MDIndexExtension.h">_MDIndexExtension.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/_MDIndexExtensionLoader.h">_MDIndexExtensionLoader.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/_MDIndexExtensionManager.h">_MDIndexExtensionManager.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/_MDRemoteExtensionContext.h">_MDRemoteExtensionContext.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/_MDSearchableIndex.h">_MDSearchableIndex.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/_MDSearchableItem.h">_MDSearchableItem.h</A>
+<A HREF="/tree/Frameworks/CoreSpotlight.framework/_MDUserAction.h">_MDUserAction.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

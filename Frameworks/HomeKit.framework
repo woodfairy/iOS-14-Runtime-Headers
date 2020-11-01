@@ -1,0 +1,341 @@
+<HTML>
+<HEAD>
+<TITLE>HomeKit.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/Frameworks/HomeKit.framework
+283 classes
+
+<A HREF="/tree/Frameworks/HomeKit.framework/HMAccessControl.h">HMAccessControl.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMAccessory.h">HMAccessory.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMAccessoryAdvertisementInfo.h">HMAccessoryAdvertisementInfo.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMAccessoryAllowedHost.h">HMAccessoryAllowedHost.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMAccessoryBrowser.h">HMAccessoryBrowser.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMAccessoryCategory.h">HMAccessoryCategory.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMAccessoryCollectionSetting.h">HMAccessoryCollectionSetting.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMAccessoryCollectionSettingItem.h">HMAccessoryCollectionSettingItem.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMAccessoryDataSetting.h">HMAccessoryDataSetting.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMAccessoryDiagnosticsMetadata.h">HMAccessoryDiagnosticsMetadata.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMAccessoryInvitation.h">HMAccessoryInvitation.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMAccessoryNetworkAccessViolation.h">HMAccessoryNetworkAccessViolation.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMAccessoryNetworkProtectionGroup.h">HMAccessoryNetworkProtectionGroup.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMAccessoryNumberSetting.h">HMAccessoryNumberSetting.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMAccessoryOwnershipToken.h">HMAccessoryOwnershipToken.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMAccessoryProfile.h">HMAccessoryProfile.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMAccessorySelectionSetting.h">HMAccessorySelectionSetting.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMAccessorySelectionSettingItem.h">HMAccessorySelectionSettingItem.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMAccessorySetting.h">HMAccessorySetting.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMAccessorySettingConstraint.h">HMAccessorySettingConstraint.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMAccessorySettingGroup.h">HMAccessorySettingGroup.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMAccessorySettings.h">HMAccessorySettings.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMAccessorySetupCompletedInfo.h">HMAccessorySetupCompletedInfo.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMAccessorySetupPayload.h">HMAccessorySetupPayload.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMAccessoryStringSetting.h">HMAccessoryStringSetting.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMAction.h">HMAction.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMActionSet.h">HMActionSet.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMAddAccessoryRequest.h">HMAddAccessoryRequest.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMAddUserRemoteViewController.h">HMAddUserRemoteViewController.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMAddUserViewController.h">HMAddUserViewController.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMAnnounceUserSettings.h">HMAnnounceUserSettings.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMApplicationData.h">HMApplicationData.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMAsset.h">HMAsset.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMAssistantAccessControl.h">HMAssistantAccessControl.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMAudioControl.h">HMAudioControl.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMBulletinBoardNotification.h">HMBulletinBoardNotification.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMBulletinBoardNotificationServiceGroup.h">HMBulletinBoardNotificationServiceGroup.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMBulletinObjectTuple.h">HMBulletinObjectTuple.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCalendarEvent.h">HMCalendarEvent.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCameraActivityZone.h">HMCameraActivityZone.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCameraAudioCodec.h">HMCameraAudioCodec.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCameraAudioControl.h">HMCameraAudioControl.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCameraBulletinBoardSmartNotification.h">HMCameraBulletinBoardSmartNotification.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCameraClip.h">HMCameraClip.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCameraClipAssetContext.h">HMCameraClipAssetContext.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCameraClipCryptoUtilities.h">HMCameraClipCryptoUtilities.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCameraClipDecryptionManager.h">HMCameraClipDecryptionManager.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCameraClipDownloadAssetDataTask.h">HMCameraClipDownloadAssetDataTask.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCameraClipDownloadAssetDataTaskHandler.h">HMCameraClipDownloadAssetDataTaskHandler.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCameraClipEncryptedDataContext.h">HMCameraClipEncryptedDataContext.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCameraClipEncryptionContext.h">HMCameraClipEncryptionContext.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCameraClipEncryptionManager.h">HMCameraClipEncryptionManager.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCameraClipFetchAssetContextOperationDataSource.h">HMCameraClipFetchAssetContextOperationDataSource.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCameraClipFetchVideoAssetContextOperation.h">HMCameraClipFetchVideoAssetContextOperation.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCameraClipManager.h">HMCameraClipManager.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCameraClipPosterFrame.h">HMCameraClipPosterFrame.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCameraClipPosterFrameDownloadOperation.h">HMCameraClipPosterFrameDownloadOperation.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCameraClipSignificantEvent.h">HMCameraClipSignificantEvent.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCameraClipVideoAssetContext.h">HMCameraClipVideoAssetContext.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCameraClipVideoDataSegment.h">HMCameraClipVideoDataSegment.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCameraClipVideoFileCombiner.h">HMCameraClipVideoFileCombiner.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCameraClipVideoHLSPlaylistGenerator.h">HMCameraClipVideoHLSPlaylistGenerator.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCameraClipVideoInitSegment.h">HMCameraClipVideoInitSegment.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCameraClipVideoSegment.h">HMCameraClipVideoSegment.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCameraControl.h">HMCameraControl.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCameraObjectFetchClient.h">HMCameraObjectFetchClient.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCameraObjectFetchServer.h">HMCameraObjectFetchServer.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCameraProfile.h">HMCameraProfile.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCameraRecordingEventManager.h">HMCameraRecordingEventManager.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCameraRecordingReachabilityEvent.h">HMCameraRecordingReachabilityEvent.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCameraRecordingReachabilityEventManager.h">HMCameraRecordingReachabilityEventManager.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCameraSettingsControl.h">HMCameraSettingsControl.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCameraSignificantEvent.h">HMCameraSignificantEvent.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCameraSnapshot.h">HMCameraSnapshot.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCameraSnapshotControl.h">HMCameraSnapshotControl.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCameraSource.h">HMCameraSource.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCameraStream.h">HMCameraStream.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCameraStreamAudioPreferences.h">HMCameraStreamAudioPreferences.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCameraStreamControl.h">HMCameraStreamControl.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCameraStreamPreferences.h">HMCameraStreamPreferences.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCameraStreamVideoPreferences.h">HMCameraStreamVideoPreferences.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCameraUserNotificationSettings.h">HMCameraUserNotificationSettings.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCameraUserSettings.h">HMCameraUserSettings.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCameraVideoResolution.h">HMCameraVideoResolution.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCameraView.h">HMCameraView.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCharacteristic.h">HMCharacteristic.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCharacteristicBatchRequest.h">HMCharacteristicBatchRequest.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCharacteristicEvent.h">HMCharacteristicEvent.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCharacteristicMetadata.h">HMCharacteristicMetadata.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCharacteristicReadRequest.h">HMCharacteristicReadRequest.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCharacteristicRequest.h">HMCharacteristicRequest.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCharacteristicResponse.h">HMCharacteristicResponse.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCharacteristicThresholdRangeEvent.h">HMCharacteristicThresholdRangeEvent.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCharacteristicWriteAction.h">HMCharacteristicWriteAction.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCharacteristicWriteRequest.h">HMCharacteristicWriteRequest.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMClientConnection.h">HMClientConnection.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCollectionSetting.h">HMCollectionSetting.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMCollectionSettingItem.h">HMCollectionSettingItem.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMDataSetting.h">HMDataSetting.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMDelegateCaller.h">HMDelegateCaller.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMDemoCameraClip.h">HMDemoCameraClip.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMDevice.h">HMDevice.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMDeviceSetupOperation.h">HMDeviceSetupOperation.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMDeviceSetupOperationHandler.h">HMDeviceSetupOperationHandler.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMDeviceSetupRequestMessage.h">HMDeviceSetupRequestMessage.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMDeviceSetupResponseMessage.h">HMDeviceSetupResponseMessage.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMDeviceSetupSession.h">HMDeviceSetupSession.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMDurationEvent.h">HMDurationEvent.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMEvent.h">HMEvent.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMEventTrigger.h">HMEventTrigger.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMExternalPersonManager.h">HMExternalPersonManager.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMExternalPersonManagerSettings.h">HMExternalPersonManagerSettings.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMFaceClassification.h">HMFaceClassification.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMFaceCrop.h">HMFaceCrop.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMFaceprint.h">HMFaceprint.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMHAPMetadata.h">HMHAPMetadata.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMHAPMetadataCategory.h">HMHAPMetadataCategory.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMHAPMetadataCharacteristic.h">HMHAPMetadataCharacteristic.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMHAPMetadataService.h">HMHAPMetadataService.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMHTMLDocument.h">HMHTMLDocument.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMHome.h">HMHome.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMHomeAccessControl.h">HMHomeAccessControl.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMHomeCloudShareResponse.h">HMHomeCloudShareResponse.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMHomeInvitation.h">HMHomeInvitation.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMHomeInvitationData.h">HMHomeInvitationData.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMHomeManager.h">HMHomeManager.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMHomeManagerConfiguration.h">HMHomeManagerConfiguration.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMHomePersonManager.h">HMHomePersonManager.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMHomePersonManagerSettings.h">HMHomePersonManagerSettings.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMIncomingHomeInvitation.h">HMIncomingHomeInvitation.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMIncomingHomeInvitationData.h">HMIncomingHomeInvitationData.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMLightProfile.h">HMLightProfile.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMLightProfileNaturalLightingAction.h">HMLightProfileNaturalLightingAction.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMLightProfileSettings.h">HMLightProfileSettings.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMLocalization.h">HMLocalization.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMLocationEvent.h">HMLocationEvent.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMMediaContentProfileAccessControl.h">HMMediaContentProfileAccessControl.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMMediaPlaybackAction.h">HMMediaPlaybackAction.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMMediaProfile.h">HMMediaProfile.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMMediaSession.h">HMMediaSession.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMMediaSystem.h">HMMediaSystem.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMMediaSystemBuilder.h">HMMediaSystemBuilder.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMMediaSystemComponent.h">HMMediaSystemComponent.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMMediaSystemRole.h">HMMediaSystemRole.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMMutableArray.h">HMMutableArray.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMMutableAssistantAccessControl.h">HMMutableAssistantAccessControl.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMMutableCalendarEvent.h">HMMutableCalendarEvent.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMMutableCameraUserNotificationSettings.h">HMMutableCameraUserNotificationSettings.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMMutableCharacteristicEvent.h">HMMutableCharacteristicEvent.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMMutableCharacteristicThresholdRangeEvent.h">HMMutableCharacteristicThresholdRangeEvent.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMMutableDurationEvent.h">HMMutableDurationEvent.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMMutableExternalPersonManagerSettings.h">HMMutableExternalPersonManagerSettings.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMMutableHomeManagerConfiguration.h">HMMutableHomeManagerConfiguration.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMMutableHomePersonManagerSettings.h">HMMutableHomePersonManagerSettings.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMMutableLocationEvent.h">HMMutableLocationEvent.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMMutableMediaContentProfileAccessControl.h">HMMutableMediaContentProfileAccessControl.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMMutableMediaPlaybackAction.h">HMMutableMediaPlaybackAction.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMMutableMediaSystemComponent.h">HMMutableMediaSystemComponent.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMMutablePerson.h">HMMutablePerson.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMMutablePhotosPersonManagerSettings.h">HMMutablePhotosPersonManagerSettings.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMMutablePresenceEvent.h">HMMutablePresenceEvent.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMMutableSignificantTimeEvent.h">HMMutableSignificantTimeEvent.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMNetworkConfigurationProfile.h">HMNetworkConfigurationProfile.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMNetworkConfigurationWiFiOptions.h">HMNetworkConfigurationWiFiOptions.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMNetworkRouterFirewallRuleManager.h">HMNetworkRouterFirewallRuleManager.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMNetworkRouterProfile.h">HMNetworkRouterProfile.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMNumberRange.h">HMNumberRange.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMNumberSetting.h">HMNumberSetting.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMObjectMergeCollection.h">HMObjectMergeCollection.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMObjectMergeOperations.h">HMObjectMergeOperations.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMOutgoingHomeInvitation.h">HMOutgoingHomeInvitation.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMOutgoingHomeInvitationData.h">HMOutgoingHomeInvitationData.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMPBAccessoryReference.h">HMPBAccessoryReference.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMPBActionContainer.h">HMPBActionContainer.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMPBActionSet.h">HMPBActionSet.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMPBCharacteristicReference.h">HMPBCharacteristicReference.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMPBCharacteristicWriteAction.h">HMPBCharacteristicWriteAction.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMPBHomeReference.h">HMPBHomeReference.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMPBMediaPlaybackAction.h">HMPBMediaPlaybackAction.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMPBMetadataCategory.h">HMPBMetadataCategory.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMPBMetadataCharacteristic.h">HMPBMetadataCharacteristic.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMPBMetadataService.h">HMPBMetadataService.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMPBNaturalLightingAction.h">HMPBNaturalLightingAction.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMPBServiceReference.h">HMPBServiceReference.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMPendingRequests.h">HMPendingRequests.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMPerson.h">HMPerson.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMPersonFaceCrop.h">HMPersonFaceCrop.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMPersonLink.h">HMPersonLink.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMPersonManager.h">HMPersonManager.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMPersonSettingsManager.h">HMPersonSettingsManager.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMPhotosPersonManager.h">HMPhotosPersonManager.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMPhotosPersonManagerSettings.h">HMPhotosPersonManagerSettings.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMPlainTextDocument.h">HMPlainTextDocument.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMPoint.h">HMPoint.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMPredicateUtilities.h">HMPredicateUtilities.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMPresenceEvent.h">HMPresenceEvent.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMPresenceEventActivation.h">HMPresenceEventActivation.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMRemoteLoginAnisetteDataProvider.h">HMRemoteLoginAnisetteDataProvider.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMRemoteLoginHandler.h">HMRemoteLoginHandler.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMResidentDevice.h">HMResidentDevice.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMRoom.h">HMRoom.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMSelectionSetting.h">HMSelectionSetting.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMSelectionSettingItem.h">HMSelectionSettingItem.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMService.h">HMService.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMServiceGroup.h">HMServiceGroup.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMSetting.h">HMSetting.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMSettingConstraint.h">HMSettingConstraint.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMSettingGroup.h">HMSettingGroup.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMSettingValue.h">HMSettingValue.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMSettings.h">HMSettings.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMSettingsController.h">HMSettingsController.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMSettingsCreator.h">HMSettingsCreator.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMSettingsMessageHandler.h">HMSettingsMessageHandler.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMSetupAccessoryBrowsingRequest.h">HMSetupAccessoryBrowsingRequest.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMSetupAccessoryDescription.h">HMSetupAccessoryDescription.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMSetupAccessoryPayload.h">HMSetupAccessoryPayload.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMSetupRemoteViewController.h">HMSetupRemoteViewController.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMSetupViewController.h">HMSetupViewController.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMShortcutAction.h">HMShortcutAction.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMSignificantTimeEvent.h">HMSignificantTimeEvent.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMSoftwareUpdate.h">HMSoftwareUpdate.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMSoftwareUpdateController.h">HMSoftwareUpdateController.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMSoftwareUpdateDocumentation.h">HMSoftwareUpdateDocumentation.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMSoftwareUpdateDocumentationMetadata.h">HMSoftwareUpdateDocumentationMetadata.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMSoftwareUpdateManager.h">HMSoftwareUpdateManager.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMStringSetting.h">HMStringSetting.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMSymptom.h">HMSymptom.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMSymptomFixSession.h">HMSymptomFixSession.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMSymptomsHandler.h">HMSymptomsHandler.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMTelevisionProfile.h">HMTelevisionProfile.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMThreadExternalCommissioner.h">HMThreadExternalCommissioner.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMThreadNetworkCredentials.h">HMThreadNetworkCredentials.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMThreadNetworkMetadata.h">HMThreadNetworkMetadata.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMTimeEvent.h">HMTimeEvent.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMTimerTrigger.h">HMTimerTrigger.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMTrigger.h">HMTrigger.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMUser.h">HMUser.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMUserActionPrediction.h">HMUserActionPrediction.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMUserActionPredictionController.h">HMUserActionPredictionController.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMUserCameraAccess.h">HMUserCameraAccess.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMUserCloudShareClientInfo.h">HMUserCloudShareClientInfo.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMUserCloudShareInvitation.h">HMUserCloudShareInvitation.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMUserCloudShareManager.h">HMUserCloudShareManager.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMUserCloudShareRepairInfo.h">HMUserCloudShareRepairInfo.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMUserCloudShareWithOwnerOperation.h">HMUserCloudShareWithOwnerOperation.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMUserInviteInformation.h">HMUserInviteInformation.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMUserListRemoteViewController.h">HMUserListRemoteViewController.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMUserListViewController.h">HMUserListViewController.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMUserPresenceAuthorization.h">HMUserPresenceAuthorization.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMUserPresenceCompute.h">HMUserPresenceCompute.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMXPCClient.h">HMXPCClient.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMXPCClientConnectionProxy.h">HMXPCClientConnectionProxy.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/HMZone.h">HMZone.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/_HMAccessoryCollectionSettingItemClassManager.h">_HMAccessoryCollectionSettingItemClassManager.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/_HMAccessoryProfile.h">_HMAccessoryProfile.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/_HMAccessorySetting.h">_HMAccessorySetting.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/_HMAccessorySettingGroup.h">_HMAccessorySettingGroup.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/_HMAudioControl.h">_HMAudioControl.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/_HMCameraAudioControl.h">_HMCameraAudioControl.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/_HMCameraControl.h">_HMCameraControl.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/_HMCameraProfile.h">_HMCameraProfile.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/_HMCameraSettingsControl.h">_HMCameraSettingsControl.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/_HMCameraSnapshot.h">_HMCameraSnapshot.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/_HMCameraSnapshotControl.h">_HMCameraSnapshotControl.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/_HMCameraSource.h">_HMCameraSource.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/_HMCameraStream.h">_HMCameraStream.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/_HMCameraStreamControl.h">_HMCameraStreamControl.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/_HMCameraUserSettings.h">_HMCameraUserSettings.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/_HMContext.h">_HMContext.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/_HMDocument.h">_HMDocument.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/_HMLightProfile.h">_HMLightProfile.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/_HMMediaProfile.h">_HMMediaProfile.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/_HMMediaSession.h">_HMMediaSession.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/_HMMutableCameraUserSettings.h">_HMMutableCameraUserSettings.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/_HMNetworkConfigurationProfile.h">_HMNetworkConfigurationProfile.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/_HMNetworkRouterProfile.h">_HMNetworkRouterProfile.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/_HMTelevisionProfile.h">_HMTelevisionProfile.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/__HMActiveAssertion.h">__HMActiveAssertion.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/__HMHomeDataSyncOperation.h">__HMHomeDataSyncOperation.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/__HMHomeManagerRefreshRequest.h">__HMHomeManagerRefreshRequest.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/__HMMainThreadDelegateCaller.h">__HMMainThreadDelegateCaller.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/__HMOperationQueueDelegateCaller.h">__HMOperationQueueDelegateCaller.h</A>
+<A HREF="/tree/Frameworks/HomeKit.framework/__HMQueueDelegateCaller.h">__HMQueueDelegateCaller.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

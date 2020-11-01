@@ -1,0 +1,231 @@
+<HTML>
+<HEAD>
+<TITLE>EventKit.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/Frameworks/EventKit.framework
+173 classes
+
+<A HREF="/tree/Frameworks/EventKit.framework/CGColorWrapper.h">CGColorWrapper.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKAlarm.h">EKAlarm.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKAlarmChange.h">EKAlarmChange.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKAlarmSemanticIdentifierGenerator.h">EKAlarmSemanticIdentifierGenerator.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKAttachment.h">EKAttachment.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKAttachmentChange.h">EKAttachmentChange.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKAttendee.h">EKAttendee.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKAttendeeChange.h">EKAttendeeChange.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKAutocompleter.h">EKAutocompleter.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKAvailabilityCache.h">EKAvailabilityCache.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKAvailabilityCachedSpan.h">EKAvailabilityCachedSpan.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKAvailabilityCachedSpanRange.h">EKAvailabilityCachedSpanRange.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKAvailabilitySpan.h">EKAvailabilitySpan.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKAvailabilitySpanDate.h">EKAvailabilitySpanDate.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKAvailabilityUtilities.h">EKAvailabilityUtilities.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKBirthdayListener.h">EKBirthdayListener.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKCalendar.h">EKCalendar.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKCalendarChange.h">EKCalendarChange.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKCalendarEventInvitationNotification.h">EKCalendarEventInvitationNotification.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKCalendarEventInvitationNotificationAttendee.h">EKCalendarEventInvitationNotificationAttendee.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKCalendarInviteReplyNotification.h">EKCalendarInviteReplyNotification.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKCalendarItem.h">EKCalendarItem.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKCalendarItemChange.h">EKCalendarItemChange.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKCalendarNotification.h">EKCalendarNotification.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKCalendarNotificationReference.h">EKCalendarNotificationReference.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKCalendarResourceChangeNotification.h">EKCalendarResourceChangeNotification.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKCalendarSharedCalendarNotification.h">EKCalendarSharedCalendarNotification.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKCalendarSuggestionNotification.h">EKCalendarSuggestionNotification.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKCalendarVisibilityManager.h">EKCalendarVisibilityManager.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKChangeListener.h">EKChangeListener.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKChangeSet.h">EKChangeSet.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKChangeTrackingClientId.h">EKChangeTrackingClientId.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKCompatibility.h">EKCompatibility.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKConferenceURLDetector.h">EKConferenceURLDetector.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKConflictDetails.h">EKConflictDetails.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKContactChange.h">EKContactChange.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKCredentials.h">EKCredentials.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKDaemonConnection.h">EKDaemonConnection.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKDataProtectionObserver.h">EKDataProtectionObserver.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKDebugPreferences.h">EKDebugPreferences.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKDiff.h">EKDiff.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKDirectoryGroup.h">EKDirectoryGroup.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKDirectoryLocation.h">EKDirectoryLocation.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKDirectoryPerson.h">EKDirectoryPerson.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKDirectoryRecord.h">EKDirectoryRecord.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKDirectoryResource.h">EKDirectoryResource.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKDirectorySearchOperation.h">EKDirectorySearchOperation.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKDirectorySearchQuery.h">EKDirectorySearchQuery.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKDirectorySearchResultSet.h">EKDirectorySearchResultSet.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKDuetSignalEventSerializer.h">EKDuetSignalEventSerializer.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKEphemeralCacheEventStoreProvider.h">EKEphemeralCacheEventStoreProvider.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKEvent.h">EKEvent.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKEventAction.h">EKEventAction.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKEventActionChange.h">EKEventActionChange.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKEventActionHandler.h">EKEventActionHandler.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKEventChange.h">EKEventChange.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKEventFetchRequestToken.h">EKEventFetchRequestToken.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKEventOccurrenceInfo.h">EKEventOccurrenceInfo.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKEventStore.h">EKEventStore.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKEventStoreWeakWrapper.h">EKEventStoreWeakWrapper.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKExceptionDate.h">EKExceptionDate.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKExceptionDateChange.h">EKExceptionDateChange.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKFeatureSet.h">EKFeatureSet.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKFrozenReminderAlarm.h">EKFrozenReminderAlarm.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKFrozenReminderCalendar.h">EKFrozenReminderCalendar.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKFrozenReminderObject.h">EKFrozenReminderObject.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKFrozenReminderRecurrenceRule.h">EKFrozenReminderRecurrenceRule.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKFrozenReminderReminder.h">EKFrozenReminderReminder.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKFrozenReminderSource.h">EKFrozenReminderSource.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKFrozenReminderStructuredLocation.h">EKFrozenReminderStructuredLocation.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKICSImporter.h">EKICSImporter.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKInviteReplyNotification.h">EKInviteReplyNotification.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKInviteReplyNotificationChange.h">EKInviteReplyNotificationChange.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKInviteeAlternativeTime.h">EKInviteeAlternativeTime.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKInviteeAlternativeTimeSearcher.h">EKInviteeAlternativeTimeSearcher.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKInviteeTimeSpan.h">EKInviteeTimeSpan.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKJunkInvitationProtocol_Shared.h">EKJunkInvitationProtocol_Shared.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKMutableTravelEngineHypothesis.h">EKMutableTravelEngineHypothesis.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKNotification.h">EKNotification.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKNotificationChange.h">EKNotificationChange.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKNotificationCollection.h">EKNotificationCollection.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKNotificationCollectionOptions.h">EKNotificationCollectionOptions.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKNullFetchRequestToken.h">EKNullFetchRequestToken.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKObject.h">EKObject.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKObjectChange.h">EKObjectChange.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKObjectChangeOwnerIDHelper.h">EKObjectChangeOwnerIDHelper.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKObjectChangeSummarizer.h">EKObjectChangeSummarizer.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKObjectID.h">EKObjectID.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKObjectValidationContext.h">EKObjectValidationContext.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKOccurrenceCacheLocationSearch.h">EKOccurrenceCacheLocationSearch.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKOccurrenceCacheSearch.h">EKOccurrenceCacheSearch.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKOfficeHour.h">EKOfficeHour.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKOrganizer.h">EKOrganizer.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKOrganizerChange.h">EKOrganizerChange.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKParticipant.h">EKParticipant.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKParticipantChange.h">EKParticipantChange.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKParticipantForSorting.h">EKParticipantForSorting.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKParticipantSemanticIdentifierGenerator.h">EKParticipantSemanticIdentifierGenerator.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKParticipantToContactMatcher.h">EKParticipantToContactMatcher.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKPersistentAlarm.h">EKPersistentAlarm.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKPersistentAttachment.h">EKPersistentAttachment.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKPersistentAttendee.h">EKPersistentAttendee.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKPersistentCalendar.h">EKPersistentCalendar.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKPersistentCalendarItem.h">EKPersistentCalendarItem.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKPersistentEvent.h">EKPersistentEvent.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKPersistentEventAction.h">EKPersistentEventAction.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKPersistentExceptionDate.h">EKPersistentExceptionDate.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKPersistentInviteReplyNotification.h">EKPersistentInviteReplyNotification.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKPersistentLocation.h">EKPersistentLocation.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKPersistentNotification.h">EKPersistentNotification.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKPersistentObject.h">EKPersistentObject.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKPersistentOrganizer.h">EKPersistentOrganizer.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKPersistentParticipant.h">EKPersistentParticipant.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKPersistentRecurrenceRule.h">EKPersistentRecurrenceRule.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKPersistentResourceChange.h">EKPersistentResourceChange.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKPersistentResourceChangeNotification.h">EKPersistentResourceChangeNotification.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKPersistentSharee.h">EKPersistentSharee.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKPersistentSource.h">EKPersistentSource.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKPersistentSuggestedEventInfo.h">EKPersistentSuggestedEventInfo.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKPredicateEvaluator.h">EKPredicateEvaluator.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKPredicateSearch.h">EKPredicateSearch.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKPredictedLocationOfInterest.h">EKPredictedLocationOfInterest.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKPreferences.h">EKPreferences.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKREMCompletionStateReminderPredicate.h">EKREMCompletionStateReminderPredicate.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKREMReminderPredicate.h">EKREMReminderPredicate.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKReadWriteLock.h">EKReadWriteLock.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKRecents.h">EKRecents.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKRecurrenceChange.h">EKRecurrenceChange.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKRecurrenceDayOfWeek.h">EKRecurrenceDayOfWeek.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKRecurrenceEnd.h">EKRecurrenceEnd.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKRecurrenceGenerator.h">EKRecurrenceGenerator.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKRecurrenceHelper.h">EKRecurrenceHelper.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKRecurrenceIdentifier.h">EKRecurrenceIdentifier.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKRecurrenceRule.h">EKRecurrenceRule.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKRelation.h">EKRelation.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKReminder.h">EKReminder.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKReminderChange.h">EKReminderChange.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKReminderFetchRequestToken.h">EKReminderFetchRequestToken.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKReminderStore.h">EKReminderStore.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKRequestAvailabilityOperation.h">EKRequestAvailabilityOperation.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKResourceChange.h">EKResourceChange.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKResourceChangeNotification.h">EKResourceChangeNotification.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKResourceChangeNotificationChange.h">EKResourceChangeNotificationChange.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKSecureKeyedArchiverSerializer.h">EKSecureKeyedArchiverSerializer.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKSerializableAlarm.h">EKSerializableAlarm.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKSerializableAttachment.h">EKSerializableAttachment.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKSerializableEvent.h">EKSerializableEvent.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKSerializableObject.h">EKSerializableObject.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKSerializableParticipant.h">EKSerializableParticipant.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKSerializableRecurrenceRule.h">EKSerializableRecurrenceRule.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKSerializableStructuredLocation.h">EKSerializableStructuredLocation.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKSharedEventStoreProvider.h">EKSharedEventStoreProvider.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKSharee.h">EKSharee.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKShareeChange.h">EKShareeChange.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKSource.h">EKSource.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKSourceChange.h">EKSourceChange.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKSourceConstraints.h">EKSourceConstraints.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKSpotlightSearch.h">EKSpotlightSearch.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKStructuredLocation.h">EKStructuredLocation.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKStructuredLocationPrediction.h">EKStructuredLocationPrediction.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKStructuredLocationSemanticIdentifierGenerator.h">EKStructuredLocationSemanticIdentifierGenerator.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKSuggestedEventInfo.h">EKSuggestedEventInfo.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKSuggestionNotificationChange.h">EKSuggestionNotificationChange.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKSyncStatusUtils.h">EKSyncStatusUtils.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKTimedEventStorePurger.h">EKTimedEventStorePurger.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKTravelAdvisoryTimelinessAuthority.h">EKTravelAdvisoryTimelinessAuthority.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKTravelEngineHypothesis.h">EKTravelEngineHypothesis.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKTravelEngineUtilities.h">EKTravelEngineUtilities.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKTravelLookupManager.h">EKTravelLookupManager.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKUICreateEventIntent.h">EKUICreateEventIntent.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKUICreateEventIntentResponse.h">EKUICreateEventIntentResponse.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/EKWeakReference.h">EKWeakReference.h</A>
+<A HREF="/tree/Frameworks/EventKit.framework/_EKNotificationMonitor.h">_EKNotificationMonitor.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

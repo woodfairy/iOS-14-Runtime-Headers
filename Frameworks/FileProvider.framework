@@ -1,0 +1,214 @@
+<HTML>
+<HEAD>
+<TITLE>FileProvider.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/Frameworks/FileProvider.framework
+156 classes
+
+<A HREF="/tree/Frameworks/FileProvider.framework/FPAccessControlManager.h">FPAccessControlManager.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPActionOperation.h">FPActionOperation.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPActionOperationInfo.h">FPActionOperationInfo.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPActionOperationLocator.h">FPActionOperationLocator.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPAggregateProgress.h">FPAggregateProgress.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPAllItemsDescriptor.h">FPAllItemsDescriptor.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPAppMetadata.h">FPAppMetadata.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPAppRegistry.h">FPAppRegistry.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPArchiveOperation.h">FPArchiveOperation.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPArchiveService.h">FPArchiveService.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPArchiveTemporaryFolder.h">FPArchiveTemporaryFolder.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPArchivedItemDescriptor.h">FPArchivedItemDescriptor.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPBlockRecoveryAttempter.h">FPBlockRecoveryAttempter.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPCTLTermDumper.h">FPCTLTermDumper.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPCopyOperation.h">FPCopyOperation.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPCreateFolderOperation.h">FPCreateFolderOperation.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPDaemonConnection.h">FPDaemonConnection.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPDaemonOperationManager.h">FPDaemonOperationManager.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPDeleteOperation.h">FPDeleteOperation.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPDisconnectDomainOperation.h">FPDisconnectDomainOperation.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPDownloadInfo.h">FPDownloadInfo.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPDownloadOperation.h">FPDownloadOperation.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPEmptyAllTrashedItemsOperation.h">FPEmptyAllTrashedItemsOperation.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPEnumerationSettings.h">FPEnumerationSettings.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPError.h">FPError.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPEvictOperation.h">FPEvictOperation.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPEvictableItemsQueryDescriptor.h">FPEvictableItemsQueryDescriptor.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPExtensionCollection.h">FPExtensionCollection.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPExtensionDataSource.h">FPExtensionDataSource.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPExtensionEnumerationSettings.h">FPExtensionEnumerationSettings.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPExtension_subsystem.h">FPExtension_subsystem.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPFavoriteFoldersQueryDescriptor.h">FPFavoriteFoldersQueryDescriptor.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPFetchAppLibraryIconsOperation.h">FPFetchAppLibraryIconsOperation.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPFetchDefaultContainerOperation.h">FPFetchDefaultContainerOperation.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPFetchPublishingURLOperation.h">FPFetchPublishingURLOperation.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPFetchRegularItemThumbnailsOperation.h">FPFetchRegularItemThumbnailsOperation.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPFetchThumbnailsOperation.h">FPFetchThumbnailsOperation.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPFileManagerFixPermDelegate.h">FPFileManagerFixPermDelegate.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPFrameworkOverridesIterator.h">FPFrameworkOverridesIterator.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPGracePeriodTimer.h">FPGracePeriodTimer.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPItem.h">FPItem.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPItemCollection.h">FPItemCollection.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPItemCollectionDiffs.h">FPItemCollectionDiffs.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPItemCollectionIndexPathBasedDiffs.h">FPItemCollectionIndexPathBasedDiffs.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPItemCollectionItemIDBasedDiffs.h">FPItemCollectionItemIDBasedDiffs.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPItemDecoration.h">FPItemDecoration.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPItemFlags.h">FPItemFlags.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPItemHierarchyLookup.h">FPItemHierarchyLookup.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPItemID.h">FPItemID.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPItemManager.h">FPItemManager.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPItemOperationLocator.h">FPItemOperationLocator.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPItemToURLResourcesConverter.h">FPItemToURLResourcesConverter.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPLocalizableStringLookup.h">FPLocalizableStringLookup.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPLocalization.h">FPLocalization.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPMaterializedSetEnumerator.h">FPMaterializedSetEnumerator.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPModifyFavoritesOperation.h">FPModifyFavoritesOperation.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPMoveInfo.h">FPMoveInfo.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPMoveOperation.h">FPMoveOperation.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPNSFileProviderItemHelper.h">FPNSFileProviderItemHelper.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPNonEvictableItemsQueryDescriptor.h">FPNonEvictableItemsQueryDescriptor.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPOperation.h">FPOperation.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPPacer.h">FPPacer.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPPair.h">FPPair.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPPersistentStringSet.h">FPPersistentStringSet.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPPinOperation.h">FPPinOperation.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPPreflightUserInteraction.h">FPPreflightUserInteraction.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPPreflightUserInteractionAlert.h">FPPreflightUserInteractionAlert.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPProgress.h">FPProgress.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPProgressManager.h">FPProgressManager.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPProgressProxy.h">FPProgressProxy.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPProvider.h">FPProvider.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPProviderDomain.h">FPProviderDomain.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPProviderDomainChangesReceiver.h">FPProviderDomainChangesReceiver.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPProviderMonitor.h">FPProviderMonitor.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPQueryCollection.h">FPQueryCollection.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPQueryEnumerationSettings.h">FPQueryEnumerationSettings.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPReachabilityMonitor.h">FPReachabilityMonitor.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPRecentDocumentsQueryDescriptor.h">FPRecentDocumentsQueryDescriptor.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPRenameOperation.h">FPRenameOperation.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPSandboxingURLWrapper.h">FPSandboxingURLWrapper.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPSearchCollection.h">FPSearchCollection.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPSearchQueryDataSource.h">FPSearchQueryDataSource.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPSearchQueryDescriptor.h">FPSearchQueryDescriptor.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPSearchQueryEnumerator.h">FPSearchQueryEnumerator.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPSearchTrashCollection.h">FPSearchTrashCollection.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPSearchableItemError.h">FPSearchableItemError.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPSearchableItemValue.h">FPSearchableItemValue.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPSearchableItemVersion.h">FPSearchableItemVersion.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPService.h">FPService.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPSetFlagsOperation.h">FPSetFlagsOperation.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPSetLastOpenDateOperation.h">FPSetLastOpenDateOperation.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPSetTagsOperation.h">FPSetTagsOperation.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPSharedDocumentsQueryDescriptor.h">FPSharedDocumentsQueryDescriptor.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPSpotlightCollector.h">FPSpotlightCollector.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPSpotlightCollectorManager.h">FPSpotlightCollectorManager.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPSpotlightDataSource.h">FPSpotlightDataSource.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPSpotlightQueryDescriptor.h">FPSpotlightQueryDescriptor.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPStitchingManager.h">FPStitchingManager.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPStitchingSession.h">FPStitchingSession.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPStringFormat.h">FPStringFormat.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPTag.h">FPTag.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPTaggedItemsQueryDescriptor.h">FPTaggedItemsQueryDescriptor.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPTask.h">FPTask.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPThreadedCopier.h">FPThreadedCopier.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPTransferOperation.h">FPTransferOperation.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPTransformOperation.h">FPTransformOperation.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPTrashOperation.h">FPTrashOperation.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPTrashUnionCollection.h">FPTrashUnionCollection.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPTrashedItemsQueryDescriptor.h">FPTrashedItemsQueryDescriptor.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPURLOperationLocator.h">FPURLOperationLocator.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPUnarchiveOperation.h">FPUnarchiveOperation.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPUnionCollection.h">FPUnionCollection.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPUnpinOperation.h">FPUnpinOperation.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPUntrashOperation.h">FPUntrashOperation.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPVendorDefinedActionOperation.h">FPVendorDefinedActionOperation.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPWakeForURLSessionOperation.h">FPWakeForURLSessionOperation.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPXChangesObserver.h">FPXChangesObserver.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPXDomainContext.h">FPXDomainContext.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPXDropSpotlightIndexOperation.h">FPXDropSpotlightIndexOperation.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPXEnumerator.h">FPXEnumerator.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPXEnumeratorAlternateContentsItem.h">FPXEnumeratorAlternateContentsItem.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPXExtensionContext.h">FPXExtensionContext.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPXFetchClientStateOperation.h">FPXFetchClientStateOperation.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPXFetchOneBatchFromWorkingSetOperation.h">FPXFetchOneBatchFromWorkingSetOperation.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPXIndexOneBatchOperation.h">FPXIndexOneBatchOperation.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPXIndexState.h">FPXIndexState.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPXItemsObserver.h">FPXItemsObserver.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPXObserver.h">FPXObserver.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPXPCAutomaticErrorProxy.h">FPXPCAutomaticErrorProxy.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPXPCSanitizer.h">FPXPCSanitizer.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPXServiceEndpointFactory.h">FPXServiceEndpointFactory.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPXSpotlightIndexer.h">FPXSpotlightIndexer.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/FPXXPCListenerDelegate.h">FPXXPCListenerDelegate.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/NSFileProviderDomain.h">NSFileProviderDomain.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/NSFileProviderEnumerationProperties.h">NSFileProviderEnumerationProperties.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/NSFileProviderExtension.h">NSFileProviderExtension.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/NSFileProviderInPlaceExtension.h">NSFileProviderInPlaceExtension.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/NSFileProviderItemVersion.h">NSFileProviderItemVersion.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/NSFileProviderManager.h">NSFileProviderManager.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/NSFileProviderRequest.h">NSFileProviderRequest.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/NSFileProviderSearchQuery.h">NSFileProviderSearchQuery.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/_CSSearchableItemAdapter.h">_CSSearchableItemAdapter.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/_FPAccessControlCollection.h">_FPAccessControlCollection.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/_FPAccessControlDataSource.h">_FPAccessControlDataSource.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/_FPCopyFileStatus.h">_FPCopyFileStatus.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/_FPFilePresenterObserver.h">_FPFilePresenterObserver.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/_FPItemDecorationFallbackLookup.h">_FPItemDecorationFallbackLookup.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/_FPItemDecorationValueResolver.h">_FPItemDecorationValueResolver.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/_FPItemList.h">_FPItemList.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/_FPPageSortedByDate.h">_FPPageSortedByDate.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/_FPPageSortedByName.h">_FPPageSortedByName.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/_FPParentProgress.h">_FPParentProgress.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/_FPProviderDomainChangesHandlerWrapper.h">_FPProviderDomainChangesHandlerWrapper.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/_FPUnionDataSource.h">_FPUnionDataSource.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/_NSFileProviderEmptyItemVersion.h">_NSFileProviderEmptyItemVersion.h</A>
+<A HREF="/tree/Frameworks/FileProvider.framework/_NSFileProviderExtensionContext.h">_NSFileProviderExtensionContext.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>
